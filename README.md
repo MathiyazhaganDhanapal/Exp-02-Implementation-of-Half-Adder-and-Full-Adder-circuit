@@ -1,11 +1,10 @@
 # Name:D.MATHIYAZHAGAN.
 # REG.NO:23013685
-## Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
 
- Implementation-of-Half-Adder-and-Full-Adder-circuit
+## Ex:03 Implementation of Half Adder and Full Adder circuit
+ Implementation of Half Adder and Full Adder circuit
 ### AIM:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
-
 ### Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
@@ -38,7 +37,8 @@ Switch ON the main switch
 If the output is 1, then the led glows.
 ### Program:
 ## HALF ADDER
-```module halfadder(a,b,sum,carry);
+```
+module halfadder(a,b,sum,carry);
 input a,b;
 output sum,carry;
 xor(sum,a,b);
